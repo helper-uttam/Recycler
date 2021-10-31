@@ -1,0 +1,41 @@
+.container { 
+    background-color: #B53471;
+    padding: 5%;
+    display: flex;
+}
+.child{
+    border: none;
+    background-color: #B53471;
+}
+.description{
+    background-color: #B53471;
+    font-family: 'Allison', cursive;
+    color: White;
+    font-size: 40px;
+}
+.brand{
+    background-color: #B53471;
+    font-family: 'Anton', sans-serif;
+    color: White;
+    font-size: 60px;
+}
+.button{
+    border-radius: 50px;
+    padding: 50px;
+    font-weight: bold;
+}
+.recycleImg{
+    width: 150px;
+    margin-left: 50px;
+    background-color: #B53471;
+}
+
+@media screen and (max-width:400px) {
+    .container { 
+        flex-direction: column;
+    }
+    .recycleImg{
+        width: 150px;
+        margin-left: 10px;
+    }
+}

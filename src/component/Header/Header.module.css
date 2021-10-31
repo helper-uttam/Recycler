@@ -1,0 +1,32 @@
+.first_section{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo > img{
+    height: 400px;
+    border-radius: 50%;
+}
+.text{
+    align-self: center;
+    margin-right: 20%;
+}
+.text > h3{
+    font-family: Arial Black;
+    font-size: 3rem;
+    border-bottom: solid 4px;
+}
+.text > p{
+    font-family: cursive;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width:400px) {
+    .logo > img{
+        height: 150px;
+    }
+    .text>h3{
+        font-size: 2rem;
+        margin-left: 10px;
+    }
+}

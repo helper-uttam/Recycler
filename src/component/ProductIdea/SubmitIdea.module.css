@@ -1,0 +1,30 @@
+.input{
+    font-size: 2rem;
+    padding: 3%;
+    text-align: left;
+    font-family: arial;
+    background-color: #ccc;
+    border-radius: 30px;
+}
+.text{
+    margin: 40px 0px 10px;
+}
+button{
+    margin: 8px 4px 2px 8px;
+}
+@media screen and (max-width: 400px) {
+    .input{
+    font-size: 1.2rem;
+    padding: 2%;
+    text-align: left;
+    font-family: arial;
+    background-color: #ccc;
+    border-radius: 20px;
+    }
+    .text{
+        margin-top: 40px;
+    }
+    button{
+        margin: 8px 4px 2px 8px;
+    }
+}
